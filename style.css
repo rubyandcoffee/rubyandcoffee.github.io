@@ -1,0 +1,32 @@
+/*html {
+  border: 5px solid #246bc1;
+}*/
+
+.row {
+  padding: 10px 20px;
+}
+
+#header {
+  margin-bottom: 25px;
+}
+
+#header h1 {
+  color: #bc1847;
+}
+
+.nav-image {
+  margin-right: 10px;
+}
+
+.nav-image-size {
+  height: 35px;
+  width: 35px;
+}
+
+span#ror {
+  border-bottom: 1px dotted red;
+}
+
+#my-toolkit {
+  padding-left: 50px;
+}
