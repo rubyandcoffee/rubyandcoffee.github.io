@@ -6,10 +6,6 @@
   margin-bottom: 25px;
 }
 
-#header h1 {
-  color: #bc1847;
-}
-
 .nav-image {
   margin-right: 10px;
 }
@@ -25,4 +21,13 @@ span#ror {
 
 #my-toolkit {
   padding-left: 50px;
+}
+
+h1 {
+  color: #bc1847
+}
+
+.prettyprint {
+  max-width: 30%;
+  text-align: left;
 }
