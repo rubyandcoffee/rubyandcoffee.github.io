@@ -95,6 +95,216 @@
           </div>
         </div>
       </div>
+      <div class="container" style="margin-bottom: 10%">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <h2>Latest Blog Post</h2>
+              <h3>Online Payments: It’s all about fraud prevention and user conversion</h3>
+            </div>
+            <br>
+            <p>
+              Many people think of online payments as just the act of sending money
+              from a consumer’s bank account to a business’ bank account - but it’s
+              actually not that straightforward.
+            </p>
+            <p>
+              In reality, online transactions are quite complicated, and that’s
+              what makes them so fascinating.
+            </p>
+            <p>
+              In this article I’ll be digging into exactly what makes them such an
+              interesting topic, as well as briefly touching on their history, and
+              what I believe are the two most important problems we face with
+              online payments today.
+            </p>
+            <p>Let’s begin.</p>
+            <p>
+              Imagine you own a business that specialises in selling birthday cards.
+              You want to expand your target market and so you decide to start selling your cards online.
+              In order to sell cards online, you need to be able to accept online payments.
+              It all sounds quite straightforward.
+            </p>
+
+            <p>
+              Your first question needs to be - who do I want to sell my cards to?
+              Well, everyone - right?<br>
+              Okay, so what payment method does ‘everyone’ use? Ah - well there’s
+              Mastercard, Visa, Amex… then there’s credit and debit, and some
+              consumers like to pay with cash, too… and don’t forget about Klarna,
+              PayPal, iDEAL… What about mobile, like ApplePay?
+            </p>
+
+            <p>
+              So you’ve drawn up a list of every single payment method available
+              to mankind.<br>
+              What do you do next? Each of these payment methods come with their
+              own API - does this mean you need a team of developers working with
+              every single API to integrate all these different payment methods on
+              your website?
+            </p>
+
+            <p>
+              What about security? Are you going to be responsible for your
+              customer’s credit card information being processed, and stored, on
+              your website?
+            </p>
+
+            <p>
+              Do your customers want to pay now or later? What about finance
+              options? What about subscriptions?
+            </p>
+
+            <p>
+              Have you thought about localisation? If our customer is from Germany,
+              then the default payment methods offered to them should be popular
+              in Germany.
+            </p>
+
+            <p>Pause. That’s a lot of questions, and we’ve only just begun.</p>
+
+            <p>
+              Fortunately, the internet, and payments processing, has evolved
+              enough to have solutions for these problems.<br>
+              Your job is to sell birthday cards - not handle payments processing
+              - so let’s use a payments API to do that for us. There’s many different
+              options for this - such as Stripe, Adyen, etc - your main concerns
+              for this are most likely going to be what payment methods they offer,
+              and the amount they charge per transaction.
+            </p>
+
+            <p>
+              Stripe is a big contender in this market, so we’ll use them as an
+              example here.<br>
+
+              Stripe offer most payment methods, depending on what region
+              (US, EU, etc) you’re in, including: debit cards, credit cards,
+              iDEAL, Klarna, SEPA Direct Debit, WeChat Pay, Google Pay, Apple Pay,
+              AliPay… the list goes on.
+            </p>
+
+            <p>
+              So that’s the payment methods dealt with. What else do they
+              handle?<br>
+              Well, there’s risk assessment, fraud, disputes, refunds,
+              subscriptions…
+            </p>
+
+            <p>
+              And we haven’t even touched on security or authentication - such
+              as the new requirement driven by Europe for Strong Customer
+              Authentication and 3D Secure 2… But that’s an article for another
+              day.
+            </p>
+
+            <p>
+              So there’s a lot to consider in the world of online payments,
+              and it’s constantly changing - but was it always this complicated?
+              <br>Let’s take a quick look at the history of online payments.
+            </p>
+
+            <p><b>Internet Banking Services</b></p>
+
+            <p>
+              In the 1990s, Stanford Federal Credit Union becomes the first
+              institution to offer online banking for its customers, but
+              unfortunately this payment system required specialised knowledge
+              of data transfer protocol, and wasn’t exactly user-friendly.
+            </p>
+
+            <p>
+              The Nationwide Building Society also began offering internet
+              banking services in 1997.
+            </p>
+
+            <p><b>E-money and Tokens</b></p>
+
+            <p>
+              Then micropayment services came along, but their focus was on
+              digital alternatives to cash, such as tokens and e-money.
+            </p>
+
+            <p><b>Money Transfer Services</b></p>
+
+            <p>
+              By the end of the 1990s, PayPal had finally emerged in 1999 as
+              an online money transfer service, and became popular with eBay
+              customers. So popular, in fact, that eBay actually acquired PayPal
+              in 2002. Paying with PayPal was easy and customers trusted it.
+            </p>
+
+            <p>
+              Digital payments quickly grew and by 2007 PayPal had 35 million
+              customers and an EU banking license.
+            </p>
+
+            <p><b>Fraud Prevention</b></p>
+
+            <p>
+              As early as 1999, online payment fraud was prevalent.<br>
+              A security protocol for payment authentication called 3DS1 was
+              released in an attempt to tackle this, by requiring the customer
+              to enter in a password whenever a transaction was deemed risky by
+              the card issuer. This led to a drop in customer conversion as the
+              password was difficult to remember and the UI was sometimes
+              confusing to the user.
+            </p>
+
+            <p>
+              The specification for 3DS2 was then published in 2016, and was
+              designed to increase customer conversion by implementing
+              ‘frictionless transactions’, and removing a lot of the pain points
+              of 3DS1.
+            </p>
+
+            <p><b>Contactless Payments</b></p>
+
+            <p>In 2007, the first contactless payment takes place, allowing
+              customers to ‘swipe’ a card quickly and easily.
+            </p>
+
+            <p>By 2018, two-thirds of UK adults use contactless payments.</p>
+
+            <p><b>Mobile Wallets</b></p>
+
+            <p>
+              Apple launched Apple Pay in 2014, allowing people to have virtual
+              wallets on mobile devices, using fingerprints as payment
+              authentication. Amazon and Google also offer similar wallet
+              functionality.
+            </p>
+
+            <p>
+              In 2018, around 16% of the adult population in the UK had
+              registered for mobile payments, with around 79% of these users
+              recording at least one payment.
+            </p>
+
+            <hr>
+
+            <p>
+              There’s a recurring theme here: online payments relies on a
+              juggling act between the ease of payment for the customer
+              (which affects customer conversion) - and the prevention of fraud.
+            </p>
+
+            <p><i>It isn’t just about the processing of money.</i></p>
+
+            <p>
+              I’m going to end the article here. Consider it a very brief
+              summary of all the different problems involved in online payments.
+            </p>
+
+            <p>
+              If you want to learn more, I’ll be posting about a variety of
+              online payment related articles in the future, where we’ll discuss
+              how you can increase conversion in online payments; what 3DS2
+              actually is and whether you need it, and how providers like Stripe
+              tackle payment fraud.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- js files -->
